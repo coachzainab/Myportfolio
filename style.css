@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    
+}
+body{
+    background-color:rgb(0 10 31/1) ;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aquamarine; */
+    height: 80px;
+    padding: 0 30px;
+    font-weight: 500;
+    transition: 2s;
+}
+.logo{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 27px;
+    color: white;
+}
+.active{
+    color: white;
+}
+
+
+.links{
+    color:#8c8c8c;
+}
+
+
+.emoji{
+font-size: 25px;
+}
+.emoji:hover{
+    background:blueviolet;
+    transform: rotate(360deg);
+    display:inline-block;
+    transition: all 3s;
+}
+.nav-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+    text-decoration: none;
+}
+.nav-menu a{
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.visible {
+    visibility: visible;
+}
+[type=button], [type=reset], [type=submit], button {
+    -webkit-appearance: button;
+    background-color: transparent;
+    background-image: none;
+}
+.burger {
+    transition: opacity .3s ease;
+    border: 0;
+    background: transparent;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    display: none;
+}
+[role=button], button {
+    cursor: pointer;
+}
+button, select {
+    text-transform: none;
+}
+button, input, optgroup, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    font-weight: inherit;
+    line-height: inherit;
+    color: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+.burger svg {
+    transform: translate(-50%,-50%) scale(1);
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+    transition: opacity .3s ease,transform .3s ease;
+}
+.text-gray-100 {
+    --tw-text-opacity: 1;
+    color: rgb(243 244 246/var(--tw-text-opacity));
+}
+.w-5 {
+    width: 1.25rem;
+}
+.h-5 {
+    height: 1.25rem;
+}
+.absolute {
+    position: absolute;
+}
+audio, canvas, embed, iframe, img, object, svg, video {
+    display: block;
+    vertical-align: middle;
+}
+
+
+
+
+.burger svg[data-hide=true] {
+    opacity: 0;
+    transform: translate(-50%,-50%) scale(0);
+}
+.burger svg {
+    transform: translate(-50%,-50%) scale(1);
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+    transition: opacity .3s ease,transform .3s ease;
+}
+.text-gray-100 {
+    --tw-text-opacity: 1;
+    color: rgb(243 244 246/var(--tw-text-opacity));
+}
+.w-5 {
+    width: 1.25rem;
+}
+.h-5 {
+    height: 1.25rem;
+}
+.absolute {
+    position: absolute;
+}
+audio, canvas, embed, iframe, img, object, svg, video {
+    display: block;
+    vertical-align: middle;
+}
+
+
+.container-fluid{
+    max-width: 1200px;
+    /* background-color: aquamarine; */
+    color: white;
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    display: flex;
+    margin:auto ;
+    position: relative;
+}
+.container-fluid h5{
+    color:blueviolet;
+}
+.red{
+    color: cornflowerblue
+}
+.honey{
+    color:cyan ;
+}
+.burly-wood{
+    color:peru ;
+}
+
+.skills-container ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    gap: 30px;
+    color:white;  
+    font-size: 30px;
+    list-style: none;
+}
+.ene{
+    color: darkgreen;
+}
+.bla{
+    color: lightsalmon;
+}
+.lab{
+    color: mediumturquoise;
+}
+.cen{
+    color: plum;
+}
+.ghost{
+    color: lightslategrey;
+}
+.Hi{
+    color: blueviolet;
+}
+.form{
+    color: yellow;
+}
+.fred{
+    color: cornsilk;
+}
+.git{
+    font-size: 25px;
+    }
+    .git:hover{
+        background:blueviolet;
+        transform: rotate(360deg);
+        display:inline-block;
+        transition: all 3s;
+    }
+
+
+.project_visible{
+    /* background-color: brown; */
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding:0 20px;
+    gap:20px;
+}
+.me{
+    font-size: 25px;
+    }
+    .me:hover{
+        background:blueviolet;
+        transform: rotate(360deg);
+        display:inline-block;
+        transition: all 2s;
+    }
+
+.card{
+    /* background-color: goldenrod; */
+    padding: 20px;
+    
+}
+.card2{
+    /* background-color: chartreuse; */
+    padding: 20px;
+}
+.card3{
+    /* background-color: crimson; */
+    padding: 20px;
+}
+
+.card-img{
+    /* background-color:magenta ; */
+    width: 100%;
+    height: 250px;
+    padding: 10px;
+   background-image: url(./assets/img/rat-infestation-damage.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-life{
+    /* background-color:magenta ; */
+    width: 100%;
+    height: 250px;
+    padding: 10px;
+   background-image: url(./assets/img/ready\ to\ learn\ -\ Copy.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-math{
+    /* background-color:magenta ; */
+    width: 100%;
+    height: 250px;
+    padding: 10px;
+   background-image: url(./assets/img/Custom-dimensions-640x424-px-92-1.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.some_of_project h1{
+    color: white;
+    margin: 20px;
+}
+
+
+@media screen and (max-width: 892px){
+    .nav-menu{
+        display: none;
+        position: absolute;
+        flex-direction: column;
+        top: 0;
+        top: 90px;
+        width: 100%;
+        align-items: flex-start;
+       
+    }
+    .nav-menu li{
+        border-bottom: 1px solid blueviolet;
+        width: 100%;
+        line-height: 35px;
+    }
+    .nav-menu a{
+        color: cornflowerblue;
+    }
+
+    .burger{
+        display: block;
+    }
+    .container-fluid{
+        width: 100%;
+    }
+    
+    .project_visible{
+        /* background-color: greenyellow; */
+        grid-template-columns:1fr;
+    }
+}
+
